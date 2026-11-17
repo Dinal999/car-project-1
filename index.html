@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuxuryDrive | Premium Cars</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">Luxury<span>Drive</span></a>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Experience the Future of Luxury</h1>
+      <p>Discover the world’s most exclusive vehicles — handcrafted, engineered, and designed for perfection.</p>
+      <a href="#featured" class="btn">Explore Cars</a>
+    </div>
+  </section>
+
+  <!-- Featured Cars -->
+  <section id="featured" class="featured">
+    <div class="container">
+      <h2 class="section-title">Featured Vehicles</h2>
+      <div class="cars-grid">
+        <div class="car-card">
+          <img src="https://images.unsplash.com/photo-1592198084033-aagde4a4c5e4?auto=format&fit=crop&w=1000&q=85" alt="Ferrari SF90 Stradale">
+          <div class="car-info">
+            <h3>Ferrari SF90 Stradale</h3>
+            <p>Hybrid supercar with 986 hp. Limited edition.</p>
+            <span class="price">$750,000</span>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="https://images.unsplash.com/photo-1614200187524-dc4b892caser?auto=format&fit=crop&w=1000&q=85" alt="Bentley Continental GT" onerror="this.src='https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1000&q=85'">
+          <div class="car-info">
+            <h3>Bentley Continental GT</h3>
+            <p>Handcrafted luxury with V8 power. Timeless elegance.</p>
+            <span class="price">$220,000</span>
+          </div>
+        </div>
+        <div class="car-card">
+          <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1000&q=85" alt="Rolls-Royce Phantom">
+          <div class="car-info">
+            <h3>Rolls-Royce Phantom</h3>
+            <p>The pinnacle of bespoke craftsmanship.</p>
+            <span class="price">$450,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2 class="section-title">Crafted for the Elite</h2>
+          <p>Since 1998, LuxuryDrive has been curating the world’s most exclusive automobiles. Our team of certified experts ensures every vehicle meets the highest standards of performance, safety, and exclusivity.</p>
+          <p>We offer personalized concierge services, private viewings, and global delivery — because true luxury is in the details.</p>
+          <a href="#contact" class="btn">Schedule a Viewing</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=85" alt="Luxury sports car">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get in Touch</h2>
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="tel" name="phone" placeholder="Phone Number" />
+        <textarea name="message" rows="5" placeholder="Tell us about your dream car..." required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 LuxuryDrive. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
